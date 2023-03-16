@@ -1,0 +1,30 @@
+/* body {
+    background-color: rgb(54, 55, 56);
+    }
+    h1 {
+    color: rgb(92, 92, 240);
+    margin-left: 20px;
+    } */
+
+
+/* div>p {
+        background-color: red;
+        } */
+
+/* div+p {
+            background-color: green;
+            } */
+
+
+/* div ~ p {
+            background-color: green;
+            }
+             */
+
+
+h1,
+h2,
+p {
+    text-align: center;
+    color: red;
+}

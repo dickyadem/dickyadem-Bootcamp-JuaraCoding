@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+    <title>Colspan dan Rowspan HTML untuk Tabel Laporan</title>
+</head>
+
+<body>
+    <h1>Laporan Penjualan Bulan Januari</h1>
+    <table border ="1">
+        <tr>
+            <th rowspan="2">Nama Barang</th>
+            <th colspan="2">Penjualan</th>
+            <th rowspan="2">Total Penjualan</th>
+        </tr>
+        <tr>
+            <th>Jumlah</th>
+            <th>Harga Satuan</th>
+        </tr>
+        <tr>
+            <td>Buku Tulis</td>
+            <td>100</td>
+            <td>Rp. 5.000</td>
+            <td>Rp. 500.000</td>
+        </tr>
+        <tr>
+            <td>Pensil</td>
+            <td>200</td>
+            <td>Rp. 2.000</td>
+            <td>Rp. 400.000</td>
+        </tr>
+        <tr>
+            <td>Penghapus</td>
+            <td>150</td>
+            <td>Rp. 1.000</td>
+            <td>Rp. 150.000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total Penjualan Keseluruhan</td>
+            <td>Rp. 1.050.000</td>
+        </tr>
+    </table>
+</body>
+
+</html>
