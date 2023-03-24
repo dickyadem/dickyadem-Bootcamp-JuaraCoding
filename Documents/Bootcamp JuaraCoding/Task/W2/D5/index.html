@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator PBB</title>
+</head>
+
+<body>
+    <h1>Kalkulator PBB</h1>
+    <form>
+        <label for="luas-tanah">Luas Tanah (m<sup>2</sup>):</label>
+        <input type="number" id="luas-tanah" name="luas-tanah" required><br>
+
+        <label for="luas-bangunan">Luas Bangunan (m<sup>2</sup>):</label>
+        <input type="number" id="luas-bangunan" name="luas-bangunan" required><br>
+
+        <label for="njop-tanah">NJOP Tanah:</label>
+        <input type="number" id="njop-tanah" name="njop-tanah" required><br>
+
+        <label for="njop-bangunan">NJOP Bangunan:</label>
+        <input type="number" id="njop-bangunan" name="njop-bangunan" required><br>
+
+        <input type="button" value="Hitung" onclick="hitungPBB()"><br><br>
+
+        <label for="hasil">Jumlah PBB yang harus dibayar:</label>
+        <input type="text" id="hasil" name="hasil" readonly>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.yellow-box {
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 5px;
+  }
+  
